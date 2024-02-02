@@ -1,0 +1,3 @@
+Write the diff between for loop and while loop.
+How to exit from the loop with example.
+When else part will be exicuted with respect to loop.
