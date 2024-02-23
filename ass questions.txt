@@ -1,3 +1,13 @@
 Write the diff between for loop and while loop.
 How to exit from the loop with example.
 When else part will be exicuted with respect to loop.
+
+
+Assignment 3
+
+Program to print prime number between 1 to N
+WAP to find the factorial of number
+WAP to check leap year
+WAP to chake to weather the string is symmetric or palindrome
+WAP to print even length word in a string
+Wap to remove all duplicate from a given number
