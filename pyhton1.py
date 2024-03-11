@@ -86,10 +86,10 @@ print("the sum of two numbers is:",add(x,y))
 
 #keyword variable length arguments
 #**kwargs   
-#def display(**kwargs):
-#    for k,v in kwargs.items():
-#        print(k,"=",v)
-#display(name="sai",marks=100,age=23)
+def display(**kwargs):
+   for k,v in kwargs.items():
+       print(k,"=",v)
+display(name="sai",marks=100,age=23)
 
 
 
