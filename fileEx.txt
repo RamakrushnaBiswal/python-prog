@@ -1,0 +1,58 @@
+For this requirment we should go for files 
+files are very common permanent storage area to store our data
+--------------
+types of files
+            txt files
+            binary files
+Txt files----> we use txt file to store character data ex- abc.txt
+Binary files------>usually we can use binary files to store binary data values like img,video,audio etc.
+
+By using open method we can open a file 
+
+opening a file
+        before opening any operation like read and write on the file first we have to open that file
+        for this we should use python inbuild function open()
+
+        but at the time of opening we have to specify the mode.
+
+        which represent the purpose of opening file 
+        Ex- 
+            f=open('test.txt','r')
+
+python mode 
+    r----> read [to open the existing for read operation if the specified file doesn't exist then we will get file not found error. it is the deafult mode  ]
+
+    w-----> write [open an existing file for write operation,if the file already contain some data then it will be overwrite.If the specified file is not already availbale then this node will create new file.]
+
+    a---> open the existing file 
+
+    r+ ---> read and write both at a time [to read and write data into file the previous data in the file will not be deleted ]
+
+    w+ -----> to write and read data it will override existing data 
+
+    a+ --> to append and rad data it willl not override the existing data 
+
+    x -----> to open a file in excusive creation mode for write operation if the file is already exist the you will get file exist error
+
+    rb --> for binary 
+    wb,ab,r+b,w+b,a+b,xb.
+
+after compliting our operation on the file it is highly recommend to close the file for this we have to use close function --close()
+ ex- f.close()
+=============================================================================================
+Various properties of file object 
+=============================================================================================
+
+Oncr we open a file and we got an file object we can get vsrious details related to that file by using its properties
+    name--->
+    mode--->
+    closed--> returns boolean values
+    readable()--->also return boolean values wheather a value is readble or not
+    writable()--->also return boolean values wheather a value is writable or not
+
+wec anwrite character data to text files by following two methods
+
+    f.write()    ---> to write character data
+    f.writelines()  ---> to write list of character data
+    
+
