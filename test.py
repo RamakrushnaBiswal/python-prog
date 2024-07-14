@@ -9,11 +9,11 @@
 #choice
 #it will not return random random numbers it will return random objects form the given list or tuple.
 
-from random import *
+# from random import *
 
-list=['a','b','c','d','e']
-for i in range(10):
-    print(choice(list))
+# list=['a','b','c','d','e']
+# for i in range(10):
+#     print(choice(list))
 
 # Encapsulation
 #it is a process of binding the data and the code that manipulates the data into a single unit.
